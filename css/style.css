@@ -1,0 +1,381 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+
+
+    
+
+.web-intro .navbar {
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+
+.web-intro .bg-nav {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+
+}
+
+.web-intro .navbar-brand img {
+    width:100px;
+
+}
+
+.icons:hover i {
+    color: #9f9f9f;
+}
+.navbar-toggler
+{
+    background-color: #fff;
+}
+
+.moOne li
+{
+    margin-left: auto;
+}
+/*navbar-end*/
+
+
+
+
+
+/*welcome*/
+
+.web-intro {
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+.img-intro .carousel-item {
+    position: relative;
+
+
+}
+
+.img-intro .carousel-item .caption {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+}
+
+.img-intro .carousel-item .intro-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+
+
+}
+
+.img-intro .carousel-item .intro-text .ani-1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+
+
+}
+
+.img-intro .carousel-item .intro-text .ani-2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.btn-services {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-services:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+.ani-1 {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.ani-2 {
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+}
+
+.ani-3 {
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+/*welcome-end*/
+
+/*first*/
+.first .f-1 h2 {
+    font-size: 13px;
+    font-weight: bold;
+
+    Color: #1f1f1f;
+}
+
+.first .f-1 p {
+    font-Family: "Source Sans Pro", sans-serif;
+    Color: #787878;
+    font-size: 24;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.btnTwo {
+    font-size: 12px;
+}
+
+.btnTwo:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/*first-end*/
+/*second*/
+
+
+
+
+
+/*second*/
+
+/*third*/
+.third h2 {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.third p {
+    color: #666;
+}
+
+.team {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.team img {
+    width: 100%;
+}
+
+.team .layout {
+    background-color: rgba(0, 195, 218, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10%;
+    opacity: 0;
+    transition: all 1s;
+    transition-duration: 1s;
+}
+
+.team:hover .layout {
+    opacity: 1;
+    top: 0;
+}
+
+.third .layout i {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+
+.third .layout h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+
+
+.third .layout h6 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+/*third-end*/
+
+/*five*/
+.five h1
+{
+    position: relative;
+}
+
+.five h1:after
+
+{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    right:48%;
+    
+}
+.five .pro1
+{
+    overflow: hidden;
+}
+.product
+{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product  img 
+{
+    
+    transition: all 1s;
+}
+
+.product:hover img 
+{
+    transform: scale(1.2);
+}
+
+.pro-sup 
+{
+    background-color: #fff;
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.5s;
+
+}
+.product:hover .pro-sup 
+{
+    opacity: 1;
+    bottom: 10%;
+}
+/*five-end*/
+/*six*/
+
+.six
+{
+    background-color: aliceblue;
+    overflow:auto;
+}
+.six p
+{
+    color: gray;
+}
+.six h6
+{
+    color: grey;
+}
+.six h4
+{
+    font-size: 60px;
+    font-weight: 500;
+}
+.six .ltr
+{
+    font-size: 15px;
+    padding-bottom: 50%;
+}
+.six li
+{
+    color: grey;
+}
+
+.six .price
+{
+    margin: 30px 0px;
+    transition: all 1s;
+}
+.six .price:hover
+{
+    transform: scale(1.1);
+    background-color: ghostwhite;
+}
+/*six-end*/
+/*seven*/
+.seven h4
+{
+    font-size: 12px;
+    font-weight: 300;
+}
+.slide2
+{
+    width: 80%;
+    box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.11);
+    margin: auto;
+}
+.crou1
+{
+    padding: 20px;
+}
+.crou1 .test-img
+{
+    width: 200px;
+    border-radius:  50% ;
+}
+
+.crou1 p
+{
+    font-size: 20px;
+}
+
+/*seven-end*/
+/*eight*/
+
+.eight h6
+{
+padding: 40px;
+}
+
+
+
+.eight  img
+
+{
+  width: 150px;  
+}
+
+.nine .map
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+#map{
+	height: 600px;
+}
